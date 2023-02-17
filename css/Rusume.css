@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+.header-left{
+    padding: 20px 4%;
+    height: 15vh;
+}
+.header-left ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header-left ul li{
+    list-style: none;
+    /* margin-right:9%; */
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+}
+.header-left ul li h1{
+    font-weight: 900;
+    font-size: 25px;
+}
+button{
+    background-color: blueviolet;
+    padding: 4px 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 700;
+    width: fit-content;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: blue;
+    border: 1px solid black;
+}
+.right-side{
+    padding: 0% 0px 0 950px;
+    border-radius: 20px;
+}
+.right-side .btn{
+    padding: 3px 10px;
+}
+button{
+    padding: 9px 60px ;
+}
+input{
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+footer{
+    font-weight: 600;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70px;
+    list-style: none;
+}
+.left-side{
+    width: 60%;
+    padding: 0  100px;
+}
+.left-side h1{
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+.left-side h1 span{
+    color: blueviolet;
+    font-weight: 900;
+    background-color: #dfdfe0;
+    padding: 0 15px;
+
+}
+.left-side p {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .left-side p span{
+    font-size: 25px;
+    font-weight: 700;
+    color: blueviolet;
+  }
+.right-side img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
