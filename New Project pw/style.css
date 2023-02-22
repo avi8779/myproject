@@ -61,3 +61,7 @@ button{
     border-radius: 5px;
     border-style: none;
 }
+@media screen and (max-width: 725px ){
+    .main img{
+        display: none;
+    }
